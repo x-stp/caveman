@@ -1,0 +1,9 @@
+# osv-scanner configuration — https://google.github.io/osv-scanner/configuration/
+#
+# Baseline: no ignored vulnerabilities. Phase B may add per-CVE entries that
+# always carry an `ignoreUntil` expiry date and a reason. Format:
+#
+#   [[IgnoredVulns]]
+#   id = "GHSA-xxxx-xxxx-xxxx"
+#   ignoreUntil = 2026-08-01
+#   reason = "non-exploitable in this code path; revisit at expiry"
