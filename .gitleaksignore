@@ -1,0 +1,3 @@
+# gitleaks fingerprint baseline.
+# Populate after the first scan with known-clean match fingerprints (one per line),
+# in the form  <commit_sha>:<file_path>:<rule_id>:<line>

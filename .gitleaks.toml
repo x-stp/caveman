@@ -1,0 +1,14 @@
+# gitleaks config — extends the default ruleset.
+# Docs: https://github.com/gitleaks/gitleaks#configuration
+
+[extend]
+useDefault = true
+
+# Public caveman URLs surface frequently and are not secrets.
+[[rules.allowlists]]
+description = "caveman public URLs"
+regexes = [
+  '''raw\.githubusercontent\.com/JuliusBrussee/caveman/''',
+  '''github\.com/JuliusBrussee/caveman''',
+  '''github\.com/x-stp/caveman''',
+]
