@@ -1,0 +1,7 @@
+dist/
+evals/snapshots/
+benchmarks/results/
+tests/fixtures/
+node_modules/
+.git/
+.audited/
