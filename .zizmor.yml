@@ -1,0 +1,9 @@
+# zizmor configuration — https://woodruffw.github.io/zizmor/configuration/
+#
+# Baseline: no per-finding ignores. Phase B may add ignores keyed to specific
+# workflow paths with a rationale comment. Format example:
+#
+#   rules:
+#     template-injection:
+#       ignore:
+#         - .github/workflows/something.yml:42:5
