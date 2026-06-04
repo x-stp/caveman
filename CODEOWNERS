@@ -1,0 +1,21 @@
+# Mandatory self-review on every change. Solo-maintainer fork; CODEOWNERS makes
+# explicit which paths must not be bypassed even when a reviewer is busy.
+
+* @x-stp
+
+# Belt-and-suspenders entries for paths that directly affect the install /
+# hook trust path or the audit itself.
+
+/bin/                       @x-stp
+/bin/lib/                   @x-stp
+/src/hooks/                 @x-stp
+/src/tools/                 @x-stp
+/install.sh                 @x-stp
+/install.ps1                @x-stp
+/dist/                      @x-stp
+
+/.github/workflows/         @x-stp
+/.github/dependabot.yml     @x-stp
+/.audited/                  @x-stp
+/SECURITY.md                @x-stp
+/CODEOWNERS                 @x-stp
