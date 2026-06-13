@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "fork": "x-stp/caveman",
+  "upstream_repo": "JuliusBrussee/caveman",
+  "upstream_branch": "main",
+  "upstream_sha": "63a91ecadbf4c4719a4602a5abb00883f9966034",
+  "audited_at": "2026-06-04T00:00:00Z",
+  "verdict": "PENDING",
+  "rubric": {
+    "passing_threshold": 6,
+    "items": {
+      "1_RAW_BASE_pinned": null,
+      "2_install_sh_pinned_or_sha256": null,
+      "3_caveman_shrink_pinned_no_postinstall": null,
+      "4_hooks_sha256_verified": null,
+      "5_installer_O_NOFOLLOW_and_runtime_reverify": null,
+      "6_workflows_perms_and_pinning": null,
+      "7_security_md_and_private_vuln_reporting": null,
+      "8_dist_skill_cosign_signed": null
+    }
+  },
+  "notes": "Baseline at fork creation. Install-auditor subagent populates rubric items + flips verdict to SANE_WITH_PIN or NOT_SANE based on PASS count vs threshold."
+}
